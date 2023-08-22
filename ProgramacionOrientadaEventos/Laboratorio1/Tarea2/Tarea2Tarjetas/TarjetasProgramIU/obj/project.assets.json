@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BibliotecaTarjetas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BibliotecaTarjetas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaTarjetas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BibliotecaTarjetas/1.0.0": {
+      "type": "project",
+      "path": "../BibliotecaTarjetas/BibliotecaTarjetas.csproj",
+      "msbuildProject": "../BibliotecaTarjetas/BibliotecaTarjetas.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BibliotecaTarjetas >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\berna\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Escritorio\\ProgramacionOrientadaEventos\\Laboratorio1\\Tarea2\\Tarea2Tarjetas\\TarjetasProgramIU\\TarjetasProgramIU.csproj",
+      "projectName": "TarjetasProgramIU",
+      "projectPath": "D:\\Escritorio\\ProgramacionOrientadaEventos\\Laboratorio1\\Tarea2\\Tarea2Tarjetas\\TarjetasProgramIU\\TarjetasProgramIU.csproj",
+      "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\ProgramacionOrientadaEventos\\Laboratorio1\\Tarea2\\Tarea2Tarjetas\\TarjetasProgramIU\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\Escritorio\\ProgramacionOrientadaEventos\\Laboratorio1\\Tarea2\\Tarea2Tarjetas\\BibliotecaTarjetas\\BibliotecaTarjetas.csproj": {
+              "projectPath": "D:\\Escritorio\\ProgramacionOrientadaEventos\\Laboratorio1\\Tarea2\\Tarea2Tarjetas\\BibliotecaTarjetas\\BibliotecaTarjetas.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

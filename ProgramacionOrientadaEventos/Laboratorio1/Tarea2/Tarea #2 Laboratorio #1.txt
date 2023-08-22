@@ -1,0 +1,14 @@
+Tarea #2 Laboratorio #1 Tarea Individual
+--------------------------------------------------------
+Estudiante:Bernardo Adonis Campos Campos. 
+Carnet: U20210692
+Ejercicio a Desarrollar:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Crear un programa que permita que un cliente pueda realizar compras con tarjetas (débito y crédito). Por defecto cuando el cliente realice una compra debe tomar el saldo disponible de su tarjeta de crédito, en caso de que el monto supere el saldo disponible en esa tarjeta debe automáticamente tomar del saldo disponible en su tarjeta de débito. En el caso de que el monto total de compra supere el dinero disponible en ambas tarjetas debe mostrar un mensaje advirtiendo al cliente que no posee suficientes fondos para realizar la transacción.
+Para realizar este ejercicio debe crear una biblioteca de clases, en dicha biblioteca debe crear las clases para almacenar la información del cliente y las clases para almacenar la información de las tarjetas. Además debe crear un evento personalizado para este ejercicio.
+
+Puede utilizar Tab Control o múltiples formularios para resolver el ejercicio.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Link del repositorio en GitHub:
+----------------------------------------------------
+https://github.com/AdonisCampos/ProgramacionOrientadaEventos_Tarea2.git
